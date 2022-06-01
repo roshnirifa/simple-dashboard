@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #f3f5f9;
+    margin-bottom: 20px;
+}
+
+/* sidebar start */
+
+.sidebar-wrapper {
+    display: flex;
+    position: relative;
+
+}
+
+.sidebar-wrapper .sidebar {
+    width: 250px;
+    height: 100%;
+    background: #32CD32;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.sidebar-wrapper .sidebar h2 {
+    color: #757575;
+    text-align: center;
+
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.brand img {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.sidebar-wrapper .sidebar li i {
+    color: #fff;
+    margin-right: 10px;
+    width: 30px;
+    font-size: 20px;
+
+}
+
+.sidebar-wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-wrapper .sidebar ul li a {
+    color: #fff;
+    display: block;
+}
+
+.sidebar-wrapper .sidebar ul li:hover {
+    background-color: rgb(230, 234, 232, 0.6)
+}
+
+.sidebar-wrapper .sidebar .team {
+    text-align: center;
+    color: #fff;
+}
+
+.select-team {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.team-name {
+    width: 150px;
+    padding: 10px 15px 10px 15px;
+    background-color: #fff;
+    color: #32CD32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+
+/* sidebar end */
+
+/* main content start */
+.sidebar-wrapper .main_content {
+    width: 100%;
+    margin-left: 250px;
+}
+
+/* content header start */
+.sidebar-wrapper .main_content .header {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #fff;
+    border-bottom: 2px solid #e0e4e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9b9999;
+}
+
+.header a:active {
+    color: black;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-profile .vl {
+    border-left: 2px solid #9b9999;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.header-profile img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.header-profile i {
+    color: #9b9999;
+    margin-left: 5px;
+}
+
+.header-profile h4 {
+    color: #9b9999;
+    font-size: 15px;
+}
+
+
+
+/* content header end */
+/* contenet body start */
+.content-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+/* main content body header  start*/
+.content-body-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule-btn {
+    padding: 10px 30px 10px 30px;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search {
+    color: #9b9999;
+    border: 2px solid #9b9999;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.search i {
+    margin-left: 17px;
+}
+
+.schedule-input {
+    padding: 10px;
+    border: none;
+
+
+}
+
+.winter-tranning-schedual {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+.winter-tranning-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.winter-tranning {
+    display: flex;
+    color: #9b9999;
+    margin-top: 5px;
+}
+
+.winter-tranning .vl {
+    border-left: 2px solid #9b9999;
+    height: 15px;
+    margin: 0px 8px 0px 8px;
+}
+
+.winter-schedul-icon i {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.winter-schedul-icon .fa-pen {
+    color: #9b9999;
+}
+
+.winter-schedul-icon .trash {
+    color: red;
+
+}
+
+.winter-schedul-icon .fa-caret-up {
+    color: #32CD32;
+    font-size: 25px;
+}
+
+.winter-hr {
+    color: #9b9999;
+    height: 2px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.date-container {
+    padding: 0px 20px 0px 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.start-date,
+.end-date {
+    color: #9b9999;
+    margin-bottom: 8px;
+}
+
+.update {
+    padding: 10px 25px 10px 25px;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.weeks {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.week {
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    border: 3px solid #757575;
+    border-radius: 10px;
+
+}
+
+#week {
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    border: 3px solid #32CD32;
+    color: #32CD32;
+    border-radius: 10px;
+}
+
+#week i {
+    color: #32CD32;
+    margin-right: 10px;
+
+}
+
+.week p {
+    color: #757575;
+}
+
+
+.week i {
+    color: #fff;
+    border: 2px solid #9b9999;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/* tranning-table */
+.trainning-table {
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+
+.tranning-table-icon {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.fa-caret-down {
+    color: #32CD32;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+
+/* main content body header  end*/
